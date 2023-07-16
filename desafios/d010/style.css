@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap');
+@font-face{
+    font-family: 'idroid'; 
+    src: url('fontes/idroid.otf') format('opentype'), url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    background-color: #84E1AD;
+    margin: 0px;
+    margin-bottom: -13px;
+    text-align: justify;
+   
+}
+header {
+    background-image: linear-gradient(to top, #227e4b, #279257, #47f796);
+    margin: 0px ;
+    color: #ffffff;
+}   
+
+header > h1 {
+    text-align: center;
+    padding: 15px;
+    font-weight: normal;
+    font-family: 'Oswald', sans-serif;
+    margin: 0px auto 10px 0px;
+}
+header > p {
+    text-align: center;
+    color: #d1e0d7;
+}
+nav {
+    padding: 10px;
+}
+
+nav > a {
+    margin-left: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: normal;
+    border: 10px;
+}
+nav > a:hover {
+    text-decoration:  underline;
+    color: rgb(43, 255, 0);
+}
+
+main {
+    width: 803px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px auto 0px auto;
+    padding: 12px;
+    text-align: justify;
+    text-indent: 2em;
+    border-radius: 0px 0px 7px 7px;
+
+}
+
+h2 {
+    font-family:'idroid' ; 
+    color: #227e4b;  
+}
+
+h3 {
+      font-family:'idroid' ; 
+      background-image: linear-gradient(to right, #a4f0c5, #ffffff);
+      color: #227e4b; 
+}
+
+main > iframe{
+    background-color: #227e4b;
+    width: 800px;
+    height: 315px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+}
+
+    
+.android {
+    width: 300px;
+    margin: 10px auto;
+}
+
+section {
+    background-color: #C5EBD6;
+    margin-top: 2px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 10px 10px;
+}
+
+section > h4 {
+    background-color: #227e4b;
+    color: #ffffff;
+    margin-left: -16px;
+    margin-right: -16px;
+    padding: 7px;
+    border-radius: 10px 10px 0px 0px; 
+}
+
+.listas-lado-a-lado {
+    display: flex;
+}
+
+.lista1, .lista2 {
+    flex: 1;
+}
+
+footer {
+    background-color: #227e4b;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 0px ;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+
+footer > p {
+    padding:3px;
+    margin: 0px;
+}
+
+strong {
+    color: #0bcc62;
+}

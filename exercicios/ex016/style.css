@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Filxgirl'; 
+    src: url('fonts/Filxgirl.otf') format('opentype'), url('fonts/Filxgirl.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    /*
+        tipos de format()
+        - opentype(otf)
+        - truetype(ttf)
+        - embedded-opentype (eot)
+        - truetype-att (Apple Advanced typography)
+        - svg 
+    
+    */
+
+
+}
+
+body {
+    background-color: #00b9ad;
+    
+}
+
+main {
+    background-color:  white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #006861c7;
+    text-align:justify;
+    width: 600px;
+    margin: auto;
+    padding: 10px;
+    margin: auto;
+}
+h1 {
+    font-family: 'Filxgirl', Times, serif;
+    font-size: 4em;
+    text-align: center;
+}

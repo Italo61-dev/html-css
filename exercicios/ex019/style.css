@@ -1,0 +1,103 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color:#E9E5DD;
+    margin: 0px;
+}
+
+header {
+    background-color: #E1FCD0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    padding: 3px;
+    background-color: #9599928d;
+    box-shadow: 5px 4px 7px 1px rgba(73, 65, 65, 0.514);
+    border-radius: 10px 0px 10px 0px;
+}
+
+nav > a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    border: 10px;
+    
+   
+
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color:rgb(0, 0, 0)
+}
+nav > a:active {
+    color: yellow;
+}
+main {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 0px 25px;
+    box-shadow: 5px 4px 7px 1px rgba(73, 65, 65, 0.514);
+    
+}
+
+article{
+    background-color: rgb(235, 233, 233);
+    padding: 5px;
+    border-radius: 25px 0px;
+}
+
+.one{
+    border-radius: 0px 25px 0px 0px;
+}
+
+.two{
+    border-radius: 0px;
+}
+
+.tree{
+    border-radius: 0px 0px 0px 25px;
+}
+article > h2 {
+    text-align: center;
+}
+
+article > aside {
+    background-color: #ababab;
+    border-radius: 0px 6px 0px 6px;
+    
+}
+
+aside > p {
+    padding-left:6px ;
+}
+
+footer{
+    background-color: #B7C6AE;
+    color: #ffffff;
+    text-align: center;
+    padding: 4px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
