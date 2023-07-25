@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        ::placeholder {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" required minlength="5" maxlength="30" placeholder="insira seu nome" autocomplete="name">
+        </p>
+        <p>
+            <label for="imail">Email:</label>
+            <input type="email" name="mail" id="imail" required minlength="5" maxlength="50" placeholder="insira seu e-mail @">
+        </p>
+        <p>
+            <label for="isen">Senha:</label>
+            <input type="password" name="sen" id="isen" required minlength="8" maxlength="30" placeholder="insira a senha" autocomplete="new-password">
+        </p>
+        <p>
+            <label for="imes">Periodo Letivo:</label>
+            <input type="month" name="mes" id="imes" required value="2023-07">
+        </p>
+        <p>
+            <label for="imt">Número de Matricula:</label>
+            <input type="text" name="mt" id="mt" required max="5" placeholder="insira número de matricula">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
