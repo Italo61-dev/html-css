@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/icone.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Curiosisades de tecnologias</title>
 </head>
 <body>
@@ -12,7 +13,8 @@
         <h1>Curiosisades de tecnologias</h1>
         <p>Tudo aquilo que você sempre quis sobre o mundo Tech, em um único  lugar</p>
     </header>
-    <nav>
+    <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+    <nav id="itens">
         <a href="#">Home</a>
         <a href="#">Noticias</a>
         <a href="#">Curiosisades</a>
@@ -64,5 +66,14 @@
     <footer>
         <p>Site criado por <a href="https://github.com/Italo61-dev" target="_blank">Italo Sousa</a> para o <a href="https://www.cursoemvideo.com/" target="_blank">Cursoemvideo</a></p>
     </footer>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
